@@ -7,7 +7,6 @@
 // ✅ No body-parser needed (Express has it)
 
 require("dotenv").config();
-
 const express = require("express");
 const { Pool } = require("pg");
 const bcrypt = require("bcryptjs");
