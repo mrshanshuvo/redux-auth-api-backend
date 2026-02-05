@@ -35,6 +35,7 @@ const pool = new Pool({
   port: Number(process.env.PG_PORT || 5432),
 });
 
+// --------- JWT Configs ----------
 const JWT_SECRET = process.env.JWT_SECRET || "change_me_in_env";
 const JWT_EXPIRES_IN = process.env.JWT_EXPIRES_IN || "15m";
 
